@@ -5,12 +5,14 @@ windows terminalに同梱されるらしいやつ。
 
 詳しくはブログ [HoBBBy.net](https://wwwhobbby.net) で。
 
+フォント本体以外はGPL v3ライセンスです～。
+
 ## Cascadia.ttf
 
 Cascadia font - Microsoft  
 https://github.com/microsoft/cascadia-code/blob/master/LICENSE
 
-フォント本体です！
+フォント本体です！ライセンスは SIL OFL ってやつ。詳しくはこのレポジトリ見てね。
 
 ## cascadia.html
 
