@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cascadia Code</title>
+    <style>
+        @font-face {
+            font-family: 'Cascadia Code';
+            src: url('../Cascadia.ttf') format('truetype');
+        }
+
+        p {
+            font-family: 'Hina2ndGrade';
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 17px;
+        }
+
+        body {
+            font-family: 'Cascadia Code', 'Ubuntu';
+            background-color: whitesmoke;
+        }
+
+        header {
+            background-color: #1565c0;
+            color: whitesmoke;
+            padding: 1rem;
+        }
+
+        header .heaeder {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .conteiner {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        main {
+            padding: 1.5rem;
+            margin: 2rem;
+            background-color: white;
+        }
+
+        main h2 {
+            padding: 1rem 0;
+            font-size: 2rem;
+        }
+
+        main h3 {
+            padding: 0.5rem;
+            margin: 1rem 0;
+            font-size: 1.7rem;
+        }
+
+        main h4 {
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+        }
+
+        main .mono {
+            font-variant-ligatures: none;
+            font-weight: normal;
+        }
+
+        main p {
+            margin: 1rem 0;
+        }
+
+        main pre {
+            padding: 1rem;
+            border-radius: 6px;
+            background-color: whitesmoke;
+            font-family: 'Cascadia Code';
+        }
+
+        main .ligature {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+        main .ligature .sample {
+            box-sizing: border-box;
+            margin: 1rem;
+            border: 1px solid gainsboro;
+            padding: 0.5rem;
+            min-width: 125px;
+        }
+
+        @media (max-width:1024px) {
+            main{
+                margin: 0.5rem;
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 512px){
+            html{
+                font-size: 15px;
+            }
+
+            main{
+                margin: 0;
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>Cascadia code demo</h1>
+        </div>
+    </header>
+    <div class="container">
+        <main>
+            <div class="content">
+                <h2>Cascadia Code Demo</h2>
+                <p>Cascadia Code のデモサイトです。ブログはこちら[URL]</p>
+                <h3>Sample</h3>
+                <pre>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</pre>
+                <h3>リガチャ(合字)</h3>
+                <div class="ligature">
+                    <!-- %ligature -->
+        <div class="sample">
+            <h4 class="mono">.=</h4>
+            <pre>.=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">.-</h4>
+            <pre>.-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">:=</h4>
+            <pre>:=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">=:=</h4>
+            <pre>=:=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">__</h4>
+            <pre>__</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">==</h4>
+            <pre>==</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">!=</h4>
+            <pre>!=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">===</h4>
+            <pre>===</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">!==</h4>
+            <pre>!==</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">=/=</h4>
+            <pre>=/=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;-&lt;</h4>
+            <pre>&lt;-&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;&lt;-</h4>
+            <pre>&lt;&lt;-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;--</h4>
+            <pre>&lt;--</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;-</h4>
+            <pre>&lt;-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;-&gt;</h4>
+            <pre>&lt;-&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">-&gt;</h4>
+            <pre>-&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">--&gt;</h4>
+            <pre>--&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">-&gt;&gt;</h4>
+            <pre>-&gt;&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;-&gt;</h4>
+            <pre>&gt;-&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;=&lt;</h4>
+            <pre>&lt;=&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;&lt;=</h4>
+            <pre>&lt;&lt;=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;==</h4>
+            <pre>&lt;==</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;=&gt;</h4>
+            <pre>&lt;=&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">==&gt;</h4>
+            <pre>==&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">=&gt;&gt;</h4>
+            <pre>=&gt;&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;=&gt;</h4>
+            <pre>&gt;=&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;&gt;=</h4>
+            <pre>&gt;&gt;=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;&gt;-</h4>
+            <pre>&gt;&gt;-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;-</h4>
+            <pre>&gt;-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;~&gt;</h4>
+            <pre>&lt;~&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">-&lt;</h4>
+            <pre>-&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">-&lt;&lt;</h4>
+            <pre>-&lt;&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">=&lt;&lt;</h4>
+            <pre>=&lt;&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;~~</h4>
+            <pre>&lt;~~</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;~</h4>
+            <pre>&lt;~</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">~~</h4>
+            <pre>~~</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">~&gt;</h4>
+            <pre>~&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">~~&gt;</h4>
+            <pre>~~&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;&lt;&lt;</h4>
+            <pre>&lt;&lt;&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;&lt;</h4>
+            <pre>&lt;&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;=</h4>
+            <pre>&lt;=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;&gt;</h4>
+            <pre>&lt;&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;=</h4>
+            <pre>&gt;=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;&gt;</h4>
+            <pre>&gt;&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&gt;&gt;&gt;</h4>
+            <pre>&gt;&gt;&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;|||</h4>
+            <pre>&lt;|||</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;||</h4>
+            <pre>&lt;||</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;|</h4>
+            <pre>&lt;|</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;|&gt;</h4>
+            <pre>&lt;|&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">|&gt;</h4>
+            <pre>|&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">||&gt;</h4>
+            <pre>||&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">|||&gt;</h4>
+            <pre>|||&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;$</h4>
+            <pre>&lt;$</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;$&gt;</h4>
+            <pre>&lt;$&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">$&gt;</h4>
+            <pre>$&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;+</h4>
+            <pre>&lt;+</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;+&gt;</h4>
+            <pre>&lt;+&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">+&gt;</h4>
+            <pre>+&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;*</h4>
+            <pre>&lt;*</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;*&gt;</h4>
+            <pre>&lt;*&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">*&gt;</h4>
+            <pre>*&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">\\</h4>
+            <pre>\\</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">\\\</h4>
+            <pre>\\\</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">/*</h4>
+            <pre>/*</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">*/</h4>
+            <pre>*/</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">///</h4>
+            <pre>///</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">//</h4>
+            <pre>//</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;/</h4>
+            <pre>&lt;/</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;!--</h4>
+            <pre>&lt;!--</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&lt;/&gt;</h4>
+            <pre>&lt;/&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">--&gt;</h4>
+            <pre>--&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">/&gt;</h4>
+            <pre>/&gt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">0xef</h4>
+            <pre>0xef</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">1x2</h4>
+            <pre>1x2</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">6:30</h4>
+            <pre>6:30</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">x+y</h4>
+            <pre>x+y</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">x-y</h4>
+            <pre>x-y</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">*xyz</h4>
+            <pre>*xyz</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">;;</h4>
+            <pre>;;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">::</h4>
+            <pre>::</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">:::</h4>
+            <pre>:::</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">..</h4>
+            <pre>..</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">...</h4>
+            <pre>...</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">..&lt;</h4>
+            <pre>..&lt;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">!!</h4>
+            <pre>!!</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">??</h4>
+            <pre>??</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">%%</h4>
+            <pre>%%</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">&amp;&amp;</h4>
+            <pre>&amp;&amp;</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">||</h4>
+            <pre>||</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">?.</h4>
+            <pre>?.</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">?:</h4>
+            <pre>?:</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">+</h4>
+            <pre>+</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">++</h4>
+            <pre>++</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">+++</h4>
+            <pre>+++</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">-</h4>
+            <pre>-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">--</h4>
+            <pre>--</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">---</h4>
+            <pre>---</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">*</h4>
+            <pre>*</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">**</h4>
+            <pre>**</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">***</h4>
+            <pre>***</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">~=</h4>
+            <pre>~=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">~-</h4>
+            <pre>~-</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">www</h4>
+            <pre>www</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">-~</h4>
+            <pre>-~</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">~@</h4>
+            <pre>~@</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">^=</h4>
+            <pre>^=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">?=</h4>
+            <pre>?=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">/=</h4>
+            <pre>/=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">/==</h4>
+            <pre>/==</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">|=</h4>
+            <pre>|=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">||=</h4>
+            <pre>||=</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#!</h4>
+            <pre>#!</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">##</h4>
+            <pre>##</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">###</h4>
+            <pre>###</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">####</h4>
+            <pre>####</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#{</h4>
+            <pre>#{</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">}#</h4>
+            <pre>}#</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#[</h4>
+            <pre>#[</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">]#</h4>
+            <pre>]#</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#(</h4>
+            <pre>#(</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#?</h4>
+            <pre>#?</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#_</h4>
+            <pre>#_</pre>
+        </div>
+        <div class="sample">
+            <h4 class="mono">#_(</h4>
+            <pre>#_(</pre>
+        </div><!-- ligature% -->
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
