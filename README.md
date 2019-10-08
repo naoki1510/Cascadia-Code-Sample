@@ -18,7 +18,7 @@ https://github.com/microsoft/cascadia-code/blob/master/LICENSE
 
 サンプルページです！必要があればこれ編集してね！
 
-%lingature%のコメントは消さないでね！make_cascadia.phpがうごかなくなるよ！
+%ligature%のコメントは消さないでね！make_cascadia.phpがうごかなくなるよ！
 
 ## make_cascadia.php
 
